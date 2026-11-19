@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "cisco-business-dashboard": {
+      "command": "npx",
+      "args": ["tsx", "/ABSOLUTE/PATH/TO/cisco-business-dashboard-mcp/src/index.ts"],
+      "env": {
+        "CBD_BASE_URL": "https://cisco.capricornio.corp.br",
+        "CBD_KEY_ID": "YOUR_ACCESS_KEY_ID",
+        "CBD_KEY_SECRET": "YOUR_ACCESS_KEY_SECRET",
+        "CBD_TLS_INSECURE": "true"
+      }
+    }
+  }
+}
